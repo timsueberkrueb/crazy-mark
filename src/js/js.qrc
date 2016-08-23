@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>marked.js</file>
+    </qresource>
+</RCC>

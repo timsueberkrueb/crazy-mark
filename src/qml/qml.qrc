@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>MarkTextArea.qml</file>
+        <file>MarkView.qml</file>
+        <file>MarkPanel.qml</file>
+        <file>MarkActionBar.qml</file>
+        <file>mark.js</file>
+        <file>MarkHeader.qml</file>
+        <file>MarkEditorPage.qml</file>
+        <file>MarkViewPage.qml</file>
+        <file>MarkSettingsPage.qml</file>
+        <file>MarkAboutPage.qml</file>
+        <file>ContentManager.qml</file>
+        <file>ImportContentPopup.qml</file>
+        <file>ExportContentPopup.qml</file>
+        <file>MarkTableDialog.qml</file>
+        <file>FilenameDialog.qml</file>
+        <file alias="icon.png">../../icon.png</file>
+        <file>NewFileDialog.qml</file>
+    </qresource>
+</RCC>

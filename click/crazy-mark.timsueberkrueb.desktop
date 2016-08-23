@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Crazy Mark
+Exec=crazy-mark
+Icon=icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

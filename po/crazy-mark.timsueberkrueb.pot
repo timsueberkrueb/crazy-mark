@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-23 18:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:29
+msgid "Save file"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:34
+msgid "Filename"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:39
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:32
+msgid "Save"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:48
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:86
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:40
+msgid "Cancel"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:6
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:11
+msgid "About"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:49
+msgid "A markdown editor for Ubuntu"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:54
+#, qt-format
+msgid "Version %1"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:60
+#, qt-format
+msgid "Source code available on <a href='%1'>GitHub</a>."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:80
+msgid "Rate"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:88
+msgid "Report bug"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:96
+msgid "Contribute"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:14
+msgid "Undo"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:23
+msgid "Redo"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:32
+msgid "Insert list"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:40
+msgid "Insert code"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:50
+msgid "Insert link"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:60
+msgid "Insert title"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:67
+msgid "Insert image"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:78
+msgid "Insert line"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:84
+msgid "Insert quote"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:86
+msgid "Quote"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:90
+msgid "Insert table"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:96
+msgid "Italic"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:98
+msgid "Italic text"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:102
+msgid "Bold"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:104
+msgid "Bold text"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:108
+msgid "Strikethrough"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:110
+msgid "Strikethrough text"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:13
+#, qt-format
+msgid "%1%2 - Editor"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:14
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:121
+msgid "Editor"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:19
+msgid "Menu"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:34
+msgid "Hide toolbar"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:34
+msgid "Show toolbar"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:16
+msgid "New"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:24
+msgid "Open"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:41
+msgid "Save as"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:48
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkViewPage.qml:8
+msgid "Preview"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:116
+msgid "Options"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:150
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:142
+msgid "Auto completion"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:163
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:7
+msgid "Settings"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:36
+msgid "Interface"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:42
+msgid "Content exchange via ..."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:44
+msgid "Content Hub"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:45
+msgid "Desktop Dialog"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:72
+msgid ""
+"Please note that content exchange using a desktop-style dialog is only "
+"usable with a mouse and keyboard connected."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:98
+msgid "Start with expanded toolbar"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:116
+msgid "Open preview on startup"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:157
+msgid "Default bullet character"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:159
+msgid "Hyphen\t-"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:160
+msgid "Asterisk\t*"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:161
+msgid "Plus\t+"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:38
+msgid "Columns"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:52
+msgid "Rows"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:66
+msgid "Cell width"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:91
+msgid "Create"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:27
+msgid "New file"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:28
+msgid "Are you sure to create a new file? All unsaved changes will be lost."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:31
+msgid "Discard"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/mark.js:2
+msgid "word"
+msgstr ""
