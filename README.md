@@ -18,13 +18,13 @@ Clone, build and run:
 git clone https://github.com/tim-sueberkrueb/crazy-mark
 cd crazy-mark
 qmake; make
-./crazy-mark.timsueberkrueb
+./crazy-mark
 ```
 Tested on Ubuntu 16.04.
 
 ### Develop for Ubuntu phone
 Make sure you have the [Ubuntu SDK installed](https://developer.ubuntu.com/en/phone/platform/sdk/installing-the-sdk/).
-Open the project (File > Open file or project > Select `crazy-mark.timsueberkrueb.pro`)
+Open the project (File > Open file or project > Select `crazy-mark.pro`)
 
 Select and/or create all necessary build kits in the `Projects` tab.
 
