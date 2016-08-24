@@ -41,15 +41,19 @@ Page {
                 id: selectorContentExchange
                 text: i18n.tr("Content exchange via ...")
                 model: [
+                    i18n.tr("Mark Dialog"),
                     i18n.tr("Content Hub"),
                     i18n.tr("Desktop Dialog")
                 ]
                 onSelectedIndexChanged: {
                     switch (selectedIndex) {
                         case 0:
-                            settings.contentExchangeMode = Settings.ContentHub;
+                            settings.contentExchangeMode = Settings.MarkDialog;
                             break;
                         case 1:
+                            settings.contentExchangeMode = Settings.ContentHub;
+                            break;
+                        case 2:
                             settings.contentExchangeMode = Settings.Desktop;
                             break;
                     }
@@ -57,19 +61,34 @@ Page {
                 }
                 Component.onCompleted: {
                     switch (settings.contentExchangeMode) {
-                        case Settings.ContentHub:
+                        case Settings.MarkDialog:
                             selectedIndex = 0;
                             break;
-                        case Settings.Desktop:
+                        case Settings.ContentHub:
                             selectedIndex = 1;
+                            break;
+                        case Settings.Desktop:
+                            selectedIndex = 2;
+                            break;
                     }
                 }
             }
 
             Label {
-                opacity: selectorContentExchange.selectedIndex
-                visible: opacity > 0
-                text: i18n.tr("Please note that content exchange using a desktop-style dialog is only usable with a mouse and keyboard connected.")
+                text: {
+                    switch (settings.contentExchangeMode) {
+                        case Settings.MarkDialog:
+                            if (confined)
+                                return i18n.tr("You're running in confined mode. You can only write files to '%1'".arg(dataPath))
+                            else
+                                return i18n.tr("Mark Dialog allows you to write to '%1'. If you wish more control choose Desktop Dialog.".arg(documentsPath))
+                        case Settings.ContentHub:
+                            return i18n.tr("Please note that due to platform limitations this option doesn't offer the best experience, yet. " +
+                                           "Please make sure that you have the filemanager app installed.")
+                        case Settings.Desktop:
+                            return i18n.tr("Please note that content exchange using a desktop-style dialog is only usable with a mouse and keyboard connected.")
+                    }
+                }
                 color: "white"
                 width: parent.width
                 wrapMode: Text.WordWrap

@@ -4,10 +4,11 @@ import Ubuntu.Components.Popups 1.3
 
 
 Item {
+    id: item
     property var dialogInstance
 
     function open() {
-        dialogInstance = PopupUtils.open(filenameDialogComponent);
+        dialogInstance = PopupUtils.open(dialogComponent);
         dialogInstance.selected.connect(function(){ accepted(); });
         dialogInstance.canceled.connect(function(){ canceled(); });
     }
@@ -16,7 +17,7 @@ Item {
     signal canceled()
 
     Component {
-        id: filenameDialogComponent
+        id: dialogComponent
 
         Dialog {
             id: dialog
@@ -24,11 +25,11 @@ Item {
             signal selected(string filename)
             signal canceled()
 
-            title: i18n.tr("New file")
-            text: i18n.tr("Are you sure to create a new file? All unsaved changes will be lost.")
+            title: i18n.tr("Unsaved changes")
+            text: i18n.tr("You have unsaved changes. Are you sure to continue?")
 
             Button {
-                text: i18n.tr("Discard")
+                text: i18n.tr("Yes")
                 color: UbuntuColors.orange
                 onClicked: {
                     PopupUtils.close(dialog);
@@ -37,7 +38,7 @@ Item {
             }
 
             Button {
-                text: i18n.tr("Cancel")
+                text: i18n.tr("No")
                 onClicked: {
                     PopupUtils.close(dialog);
                     canceled();

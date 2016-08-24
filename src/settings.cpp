@@ -49,9 +49,12 @@ bool Settings::load()
 
     switch(jsonData["contentexchangemode"].toInt()) {
         case 0:
-            setContentExchangeMode(ContentExchangeMode::ContentHub);
+            setContentExchangeMode(ContentExchangeMode::MarkDialog);
             break;
         case 1:
+            setContentExchangeMode(ContentExchangeMode::ContentHub);
+            break;
+        case 2:
             setContentExchangeMode(ContentExchangeMode::Desktop);
             break;
     }
@@ -87,11 +90,14 @@ QString Settings::getJson()
 {
     int contentExchangeNum = 0;
     switch(m_contentExchangeMode) {
-        case ContentExchangeMode::ContentHub:
+        case ContentExchangeMode::MarkDialog:
             contentExchangeNum = 0;
             break;
-        case ContentExchangeMode::Desktop:
+        case ContentExchangeMode::ContentHub:
             contentExchangeNum = 1;
+            break;
+        case ContentExchangeMode::Desktop:
+            contentExchangeNum = 2;
             break;
     }
 

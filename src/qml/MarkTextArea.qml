@@ -7,6 +7,7 @@ TextArea {
 
     property bool autoCompletion: true
     property bool setDirty: true
+    property bool loaded: false
 
     signal renderRequested()
 
@@ -15,6 +16,10 @@ TextArea {
     wrapMode: TextEdit.NoWrap
 
     onTextChanged: {
+        if (!loaded) {
+            loaded = true;
+            return
+        }
         if (autoCompletion) {
             // Auto-completion
             var character = getText(cursorPosition-1, cursorPosition);

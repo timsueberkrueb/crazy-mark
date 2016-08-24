@@ -18,6 +18,7 @@ const QString APP_FOLDER_NAME = "/crazy-mark.timsueberkrueb/";
 const QString CONFIG_FILE_PATH = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + APP_FOLDER_NAME;
 const QString CACHE_FILE_PATH = QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + APP_FOLDER_NAME;
 const QString DATA_PATH = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + APP_FOLDER_NAME;
+const QString DOCUMENTS_LOCATION = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
 
 int main(int argc, char *argv[])
 {
@@ -27,21 +28,26 @@ int main(int argc, char *argv[])
     Settings settings(CONFIG_FILE_PATH);
     settings.load();
 
-    QQuickView view;
+    bool confined = !QFileInfo(DOCUMENTS_LOCATION).isWritable();
+    if (confined)
+        qDebug() << "Running in confined mode.";
+    else
+        qDebug() << "Running unconfined.";
+
+    QQmlApplicationEngine engine;
     qmlRegisterType<MarkFile>("Mark", 1, 0, "MarkFile");
     qmlRegisterType<Settings>("Mark", 1, 0, "Settings");
-    view.rootContext()->setContextProperty("settings", &settings);
-    view.rootContext()->setContextProperty("appVersion", "0.1");
-    view.rootContext()->setContextProperty("dataPath", DATA_PATH);
-    view.rootContext()->setContextProperty("userScriptUrl", QUrl("file://"+QFileInfo("oxide-user.js").absoluteFilePath()));
-    view.rootContext()->setContextProperty("desktopFileDialog", &desktopFileDialog);
-    view.setSource(QUrl(QStringLiteral("qrc:///Main.qml")));
-
-    view.setWidth(660);
-    view.setHeight(500);
+    engine.rootContext()->setContextProperty("confined", confined);
+    engine.rootContext()->setContextProperty("settings", &settings);
+    engine.rootContext()->setContextProperty("appVersion", "0.1");
+    engine.rootContext()->setContextProperty("dataPath", DATA_PATH);
+    engine.rootContext()->setContextProperty("documentsPath", DOCUMENTS_LOCATION);
+    engine.rootContext()->setContextProperty("userScriptUrl", QUrl("file://"+QFileInfo("oxide-user.js").absoluteFilePath()));
+    engine.rootContext()->setContextProperty("desktopFileDialog", &desktopFileDialog);
+    engine.load(QUrl(QStringLiteral("qrc:///Main.qml")));
 
     // Load palette from help
-    QQuickItem *rootItem = view.rootObject();
+    QObject *rootItem = engine.rootObjects()[0];
     QObject *paletteHelper = rootItem->findChild<QObject*>("paletteHelper");
 
     Palette palette(paletteHelper);
@@ -72,7 +78,7 @@ int main(int argc, char *argv[])
     QQuickItem *webView = rootItem->findChild<QQuickItem*>("markView");
     QMetaObject::invokeMethod(webView, "loadHtml", Q_ARG(QString, viewHtml));
 
-    view.show();
+    //engine.show();
 
     return app.exec();
 }

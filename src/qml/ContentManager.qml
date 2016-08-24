@@ -19,13 +19,30 @@ Item {
         }
     }
 
-    function askOpenFile() {
-        if (useContentHub)
-            importContentPopup.show();
-        else {
-            var fileName = desktopFileDialog.askOpenFile();
-            if (fileName)
-                openFile(Qt.resolvedUrl("file://"+fileName));
+    function askOpenFile(skipCheckDirty) {
+        // disabled for now when using the desktop-style dialog
+        // because it segfaults when opened from this context
+        if (settings.contentExchangeMode !== Settings.Desktop) {
+            if (!skipCheckDirty) {
+                if (fileDirty) {
+                    openUnsavedDialog.open();
+                    return;
+                }
+            }
+        }
+        switch (settings.contentExchangeMode) {
+            case Settings.MarkDialog:
+                fileSelectorPage.mode = fileSelectorPage.open;
+                var page = pageView.addPageToNextColumn(editorPage, fileSelectorPage, {});
+                break;
+            case Settings.ContentHub:
+                importContentPopup.show();
+                break;
+            case Settings.Desktop:
+                var fileName = desktopFileDialog.askOpenFile();
+                if (fileName)
+                    openFile(Qt.resolvedUrl("file://"+fileName));
+                break;
         }
     }
 
@@ -45,17 +62,23 @@ Item {
     }
 
     function askSaveFileAs() {
-        if (useContentHub) {
-            filenameDialog.open();
-        }
-        else {
-            var filepath = desktopFileDialog.askSaveFileText(textArea.text);
-            if (filepath) {
-                currentFile.url = Qt.resolvedUrl("file://" + filepath);
-                currentFile.fileName = filepath.replace(/^.*[\\\/]/, '');
-                fileOpen = true;
-                saveFile();
-            }
+        switch (settings.contentExchangeMode) {
+            case Settings.MarkDialog:
+                fileSelectorPage.mode = fileSelectorPage.save;
+                var page = pageView.addPageToNextColumn(editorPage, fileSelectorPage, {});
+                break;
+            case Settings.ContentHub:
+                filenameDialog.open();
+                break;
+            case Settings.Desktop:
+                var filepath = desktopFileDialog.askSaveFileText(textArea.text);
+                if (filepath) {
+                    currentFile.url = Qt.resolvedUrl("file://" + filepath);
+                    currentFile.fileName = filepath.replace(/^.*[\\\/]/, '');
+                    fileOpen = true;
+                    saveFile();
+                }
+                break;
         }
     }
 
@@ -91,8 +114,38 @@ Item {
         onAccepted: {
             textArea.text = "";
             fileOpen = false;
+            fileDirty = false;
             currentFile.url = "";
             currentFile.fileName = "";
+        }
+    }
+
+    UnsavedChangesDialog {
+        id: openUnsavedDialog
+        onAccepted: {
+            askOpenFile(true);
+        }
+    }
+
+    MarkFileSelectorPage {
+        id: fileSelectorPage
+        rootFolder: confined ? Qt.resolvedUrl("file://" + dataPath) : Qt.resolvedUrl("file://" + documentsPath)
+        folder: rootFolder
+        onSelected: {
+            if (mode === open) {
+                openFile(Qt.resolvedUrl("file://" + filePath));
+                pageView.removePages(fileSelectorPage);
+            }
+            else if (mode === save) {
+                currentFile.url = filePath;
+                currentFile.fileName = fileName;
+                fileOpen = true;
+                saveFile();
+                pageView.removePages(fileSelectorPage);
+            }
+        }
+        onCanceled: {
+            pageView.removePages(fileSelectorPage);
         }
     }
 }

@@ -31,8 +31,9 @@ public:
     QString getJson();
 
     enum ContentExchangeMode {
-        ContentHub = 0,
-        Desktop
+        MarkDialog,
+        ContentHub,
+        Desktop,
     };
 
     ContentExchangeMode getContentExchangeMode() const { return m_contentExchangeMode; }
