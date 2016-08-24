@@ -87,8 +87,6 @@ int main(int argc, char *argv[])
     QQuickItem *webView = rootItem->findChild<QQuickItem*>("markView");
     QMetaObject::invokeMethod(webView, "loadHtml", Q_ARG(QString, viewHtml));
 
-    //engine.show();
-
     return app.exec();
 }
 
