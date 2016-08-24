@@ -65,6 +65,24 @@ Page {
                 }
 
                 Label {
+                    text: i18n.tr("The following third-party software comes with Crazy Mark and is licensed as specified:")
+                    width: parent.width
+                    wrapMode: Text.WordWrap
+                }
+
+                Label {
+                    text: i18n.tr("- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> " +
+                                  "licensed under the <a href='%3'>MIT License</a>")
+                                  .arg("https://github.com/chjj/marked")
+                                  .arg("https://github.com/chjj/")
+                                  .arg("https://opensource.org/licenses/MIT")
+                    width: parent.width
+                    wrapMode: Text.WordWrap
+                    linkColor: "white"
+                    onLinkActivated: Qt.openUrlExternally(link);
+                }
+
+                Label {
                     text: ("This application is free software: you can redistribute it and/or modify it under the terms of" +
                            " the GNU General Public License as published by the Free Software Foundation, either version 3 of the " +
                            "License, or (at your option) any later version.<br/><br/>Copyright (C) 2016 Tim Süberkrüb<br/>")
