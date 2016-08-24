@@ -28,7 +28,16 @@ int main(int argc, char *argv[])
     Settings settings(CONFIG_FILE_PATH);
     settings.load();
 
-    bool confined = !QFileInfo(DOCUMENTS_LOCATION).isWritable();
+    bool confined = false;
+    QString testFilename(DOCUMENTS_LOCATION + "/" + ".crazy-mark-test");
+    QFile testFile(testFilename);
+    if (!testFile.open(QIODevice::WriteOnly | QIODevice::Text))
+        confined = true;
+    else {
+        testFile.close();
+        QFile::remove(testFilename);
+    }
+
     if (confined)
         qDebug() << "Running in confined mode.";
     else

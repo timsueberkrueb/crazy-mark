@@ -1,0 +1,8 @@
+{
+    "read_path": [
+        "@{HOME}/"
+    ],
+    "write_path": [
+        "@{HOME}/"
+    ]
+}

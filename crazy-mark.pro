@@ -50,6 +50,7 @@ QML_FILES += $$files(*.qml,true) \
              $$files(*.js,true)
 
 CONF_FILES +=  click/crazy-mark.timsueberkrueb.apparmor \
+               click/crazy-mark.timsueberkrueb.apparmor.openstore \
                icon.png
 
 #show all the files in QtCreator
