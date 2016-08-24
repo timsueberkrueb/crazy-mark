@@ -9,7 +9,7 @@ Page {
 
     property int mode: save
     property string fileName: inputFileName.text
-    readonly property string filePath: fileSelector.folder + "/" + fileName
+    readonly property string filePath: fileSelector.folder + fileName
 
     property alias folder: fileSelector.folder
     property alias rootFolder: fileSelector.rootFolder
@@ -21,10 +21,7 @@ Page {
             iconName: "ok"
             text: i18n.tr("Select")
             onTriggered: {
-                if (fileSelector.fileExists(filePath))
-                    PopupUtils.open(fileExistsDialog, selectorPage, {fileName: fileName});
-                else
-                    selected(fileName, filePath);
+                inputFileName.accepted();
             }
         },
         Action {
@@ -35,6 +32,8 @@ Page {
             }
         }
     ]
+
+    readonly property var markdownExtensions: [".md", ".markdown", ".mdown", ".mkdn", ".mkd", ".mdwn", ".mdtxt", ".mdtext", ".text"]
 
     signal selected(string fileName, string filePath)
     signal canceled()
@@ -60,6 +59,16 @@ Page {
                 width: parent.width
                 placeholderText: i18n.tr("Save as ...")
                 onAccepted: {
+                    var hasExtension = false;
+                    for (var i=0; i<markdownExtensions.length; i++) {
+                        if (text.indexOf(markdownExtensions[i], text.length - markdownExtensions[i].length) !== -1) {
+                            hasExtension = true;
+                            break;
+                        }
+                    }
+                    if (!hasExtension)
+                        text += ".md";
+
                     if (fileSelector.fileExists(filePath))
                         PopupUtils.open(fileExistsDialog, selectorPage, {fileName: fileName});
                     else
