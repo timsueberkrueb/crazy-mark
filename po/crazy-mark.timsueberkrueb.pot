@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-24 14:12+0000\n"
+"POT-Creation-Date: 2016-08-24 14:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgid "Save"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:48
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:32
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:29
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:86
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:40
 msgid "Cancel"
@@ -173,29 +173,29 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:47
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:46
 msgid "Open file"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:61
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:60
 msgid "Save as ..."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:97
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:107
 msgid "File exits"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:98
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:108
 #, qt-format
 msgid "Do you want to override %1?"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:101
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:111
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:32
 msgid "Yes"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:110
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:120
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:41
 msgid "No"
 msgstr ""
