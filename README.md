@@ -2,6 +2,9 @@
 
 A simple markdown editor for Ubuntu
 
+## Translations
+Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
+
 ## Installation
 
 ### Ubuntu Desktop
