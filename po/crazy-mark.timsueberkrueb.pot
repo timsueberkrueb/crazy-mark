@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-23 18:34+0000\n"
+"POT-Creation-Date: 2016-08-24 12:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,7 @@ msgid "Save"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:48
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:32
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:86
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:40
 msgid "Cancel"
@@ -141,7 +142,7 @@ msgid "%1%2 - Editor"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:14
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:121
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:140
 msgid "Editor"
 msgstr ""
 
@@ -155,6 +156,37 @@ msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:34
 msgid "Show toolbar"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:22
+msgid "Select"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:47
+msgid "Open file"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:61
+msgid "Save as ..."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:97
+msgid "File exits"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:98
+#, qt-format
+msgid "Do you want to override %1?"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:101
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:32
+msgid "Yes"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:110
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:41
+msgid "No"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:16
@@ -179,7 +211,7 @@ msgid "Options"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:150
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:142
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:161
 msgid "Auto completion"
 msgstr ""
 
@@ -197,40 +229,62 @@ msgid "Content exchange via ..."
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:44
-msgid "Content Hub"
+msgid "Mark Dialog"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:45
+msgid "Content Hub"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:46
 msgid "Desktop Dialog"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:72
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:82
+#, qt-format
+msgid "You're running in confined mode. You can only write files to '%1'"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:84
+#, qt-format
+msgid ""
+"Mark Dialog allows you to write to '%1'. If you wish more control choose "
+"Desktop Dialog."
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:86
+msgid ""
+"Please note that due to platform limitations this option doesn't offer the "
+"best experience, yet. "
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:89
 msgid ""
 "Please note that content exchange using a desktop-style dialog is only "
 "usable with a mouse and keyboard connected."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:98
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:117
 msgid "Start with expanded toolbar"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:116
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:135
 msgid "Open preview on startup"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:157
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:176
 msgid "Default bullet character"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:159
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:178
 msgid "Hyphen\t-"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:160
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:179
 msgid "Asterisk\t*"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:161
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:180
 msgid "Plus\t+"
 msgstr ""
 
@@ -260,6 +314,14 @@ msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:31
 msgid "Discard"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:28
+msgid "Unsaved changes"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/UnsavedChangesDialog.qml:29
+msgid "You have unsaved changes. Are you sure to continue?"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/mark.js:2
