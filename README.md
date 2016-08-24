@@ -30,7 +30,7 @@ Select and/or create all necessary build kits in the `Projects` tab.
 Attach a device and click the run button.
 
 ## Included third-party software
-The following third-party software comes with Crazy Mark and is licensed as specified in the following:
+The following third-party software comes with Crazy Mark and is licensed as specified:
 * [Marked.js](https://github.com/chjj/marked) by [Christopher Jeffrey](https://github.com/chjj/) licensed under the MIT License (see LICENSE.MIT)
 
 ## License and Copyright
