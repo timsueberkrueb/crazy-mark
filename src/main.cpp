@@ -28,6 +28,12 @@ int main(int argc, char *argv[])
     Settings settings(CONFIG_FILE_PATH);
     settings.load();
 
+    // Make sure the data folder exists
+    QDir dataDir(DATA_PATH);
+    if (!dataDir.exists()) {
+        dataDir.mkpath(".");
+    }
+
     bool confined = false;
     QString testFilename(DOCUMENTS_LOCATION + "/" + ".crazy-mark-test");
     QFile testFile(testFilename);
