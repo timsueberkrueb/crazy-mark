@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-24 13:20+0000\n"
+"POT-Creation-Date: 2016-08-24 14:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,15 +56,26 @@ msgstr ""
 msgid "Source code available on <a href='%1'>GitHub</a>."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:80
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:68
+msgid ""
+"The following third-party software comes with Crazy Mark and is licensed as "
+"specified:"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:74
+#, qt-format
+msgid "- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> "
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:98
 msgid "Rate"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:88
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:106
 msgid "Report bug"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:96
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:114
 msgid "Contribute"
 msgstr ""
 
