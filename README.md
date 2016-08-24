@@ -10,7 +10,6 @@ Make sure you have all dependencies installed:
 sudo apt update
 sudo apt install qt5-default
 sudo apt install qtdeclarative5-dev qtbase5-dev
-sudo apt install libqt5svg5-dev
 sudo apt install qtdeclarative5-ubuntu-content1
 ```
 Clone, build and run:
