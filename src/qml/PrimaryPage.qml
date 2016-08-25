@@ -1,6 +1,7 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
+import QtGraphicalEffects 1.0
 
 Page {
     id: primaryPage
@@ -77,6 +78,39 @@ Page {
                 bottomEdge.fileName = fileName;
                 bottomEdge.commit();
             }
+        }
+
+        Image {
+            id: imageArrow
+            visible: fileSelector.count == 0
+            anchors {
+                top: parent.top
+                right: parent.right
+                topMargin: units.gu(1)
+                rightMargin: units.gu(7)
+            }
+            source: "media/images/arrow.svg"
+            smooth: true
+
+            ColorOverlay {
+                anchors.fill: parent
+                source: parent
+                color: theme.palette.normal.foregroundText
+            }
+        }
+
+        Label {
+            visible: fileSelector.count == 0
+            text: i18n.tr("Create your first file")
+            font.family: "Pecita"
+            font.pixelSize: units.dp(18)
+            font.bold: true
+            anchors {
+                right: imageArrow.left
+                margins: units.gu(2)
+                verticalCenter: imageArrow.bottom
+            }
+            Component.onCompleted: console.log(color)
         }
 
         Label {

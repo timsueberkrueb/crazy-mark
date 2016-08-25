@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/media">
+        <file>fonts/Pecita.otf</file>
+        <file>images/arrow.svg</file>
+    </qresource>
+</RCC>

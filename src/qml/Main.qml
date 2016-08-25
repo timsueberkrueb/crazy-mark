@@ -75,6 +75,12 @@ Window {
             }
         }
 
+        FontLoader {
+            id: pecitaFont;
+            name: "Pecita";
+            source: "media/fonts/Pecita.otf"
+        }
+
         Component.onCompleted: {
             if (settings.openPreview)
                 pageView.addPageToNextColumn(primaryPage, viewPage, {});

@@ -80,6 +80,18 @@ Page {
             }
 
             Label {
+                text: i18n.tr("- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> " +
+                              "licensed under the <a href='%3'>SIL Open Font License, Version 1.1</a>")
+                              .arg("https://www.fontsquirrel.com/fonts/Pecita")
+                              .arg("https://www.fontsquirrel.com/fonts/list/foundry/philippe-cochy")
+                              .arg("https://www.fontsquirrel.com/license/Pecita")
+                width: parent.width
+                wrapMode: Text.WordWrap
+                linkColor: UbuntuColors.orange
+                onLinkActivated: Qt.openUrlExternally(link);
+            }
+
+            Label {
                 text: ("This application is free software: you can redistribute it and/or modify it under the terms of" +
                        " the GNU General Public License as published by the Free Software Foundation, either version 3 of the " +
                        "License, or (at your option) any later version.<br/><br/>Copyright (C) 2016 Tim Süberkrüb<br/>")

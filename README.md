@@ -14,6 +14,7 @@ sudo apt update
 sudo apt install qt5-default
 sudo apt install qtdeclarative5-dev qtbase5-dev
 sudo apt install qtdeclarative5-ubuntu-content1
+sudo apt install libqt5svg5-dev
 ```
 Clone, build and run:
 ```
@@ -35,6 +36,7 @@ Attach a device and click the run button.
 ## Included third-party software
 The following third-party software comes with Crazy Mark and is licensed as specified:
 * [Marked.js](https://github.com/chjj/marked) by [Christopher Jeffrey](https://github.com/chjj/) licensed under the MIT License (see LICENSE.MIT)
+* [Pecita font](https://www.fontsquirrel.com/fonts/Pecita) by [Philippe Cochy](https://www.fontsquirrel.com/fonts/list/foundry/philippe-cochy) licensed under the [SIL Open Font License, Version 1.1](https://www.fontsquirrel.com/license/Pecita).
 
 ## License and Copyright
 
