@@ -9,6 +9,7 @@
 #include <QtQml>
 #include "markhighlighter.h"
 #include "palette.h"
+#include "highlightutils.h"
 #include "desktopfiledialog.h"
 #include "markfile.h"
 #include "settings.h"
@@ -67,10 +68,9 @@ int main(int argc, char *argv[])
 
     Palette palette(paletteHelper);
 
-    // Install highlighter
-    QQuickItem *textArea = rootItem->findChild<QQuickItem*>("markTextArea");
-    QQuickTextDocument* doc = textArea->property("textDocument").value<QQuickTextDocument*>();
-    new MarkHighlighter(palette, doc->textDocument());
+    // Install highlight utils
+    HighlightUtils hUtils(paletteHelper);
+    engine.rootContext()->setContextProperty("highlightUtils", &hUtils);
 
     // Load marked js
     QFile markedJSFile(":/marked.js");

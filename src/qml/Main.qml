@@ -16,27 +16,7 @@ Window {
         objectName: "mainView"
         anchors.fill: parent
         applicationName: "crazy-mark.timsueberkrueb"
-        anchorToKeyboard: true
-
-        // Shortcuts
-        Keys.onPressed: {
-            if (event.modifiers & Qt.ControlModifier) {
-                switch (event.key) {
-                    case Qt.Key_N:
-                        editorPage.panel.actions[0].trigger();
-                        break;
-                    case Qt.Key_O:
-                        editorPage.panel.actions[1].trigger();
-                        break;
-                    case Qt.Key_S:
-                        editorPage.panel.actions[2].trigger();
-                        break;
-                }
-            }
-            else if (event.key == Qt.Key_F5)
-                editorPage.panel.actions[4].trigger();
-
-        }
+        anchorToKeyboard: false
 
         QtObject {
             objectName: "paletteHelper"
@@ -55,7 +35,7 @@ Window {
             id: pageView
             anchors.fill: parent
 
-            primaryPage: editorPage
+            primaryPage: primaryPage
 
             layouts: [
                 // two columns
@@ -78,12 +58,12 @@ Window {
                 }
             ]
 
-            MarkSettingsPage {
-                id: settingsPage
+            PrimaryPage {
+                id: primaryPage
             }
 
-            MarkEditorPage {
-                id: editorPage
+            MarkSettingsPage {
+                id: settingsPage
             }
 
             MarkViewPage {
@@ -95,20 +75,9 @@ Window {
             }
         }
 
-        ContentManager {
-            id: contentManager
-            textArea: editorPage.textArea
-            onFileOpened: {
-                contentManager.fileDirty = false;
-                editorPage.textArea.setDirty = false;
-                editorPage.textArea.text = text;
-                editorPage.textArea.setDirty = true;
-            }
-        }
-
         Component.onCompleted: {
             if (settings.openPreview)
-                pageView.addPageToNextColumn(editorPage, viewPage, {});
+                pageView.addPageToNextColumn(primaryPage, viewPage, {});
         }
     }
     Component.onCompleted: show();

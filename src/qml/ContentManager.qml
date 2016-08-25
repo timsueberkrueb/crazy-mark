@@ -33,7 +33,7 @@ Item {
         switch (settings.contentExchangeMode) {
             case Settings.MarkDialog:
                 fileSelectorPage.mode = fileSelectorPage.open;
-                var page = pageView.addPageToNextColumn(editorPage, fileSelectorPage, {});
+                var page = pageView.addPageToNextColumn(primaryPage, fileSelectorPage, {});
                 break;
             case Settings.ContentHub:
                 importContentPopup.show();
@@ -65,7 +65,7 @@ Item {
         switch (settings.contentExchangeMode) {
             case Settings.MarkDialog:
                 fileSelectorPage.mode = fileSelectorPage.save;
-                var page = pageView.addPageToNextColumn(editorPage, fileSelectorPage, {});
+                var page = pageView.addPageToNextColumn(primaryPage, fileSelectorPage, {});
                 break;
             case Settings.ContentHub:
                 filenameDialog.open();
@@ -80,6 +80,13 @@ Item {
                 }
                 break;
         }
+    }
+
+    function askCloseEditor() {
+        if (fileDirty)
+            confirmCloseDialog.open();
+        else
+            confirmCloseDialog.accepted();
     }
 
     signal fileOpened(var text)
@@ -120,10 +127,26 @@ Item {
         }
     }
 
-    UnsavedChangesDialog {
+    ConfirmDialog {
         id: openUnsavedDialog
+
+        title: i18n.tr("Unsaved changes")
+        text: i18n.tr("You have unsaved changes. Are you sure to continue?")
+
         onAccepted: {
             askOpenFile(true);
+        }
+    }
+
+    ConfirmDialog {
+        id: confirmCloseDialog
+
+        title: i18n.tr("Close file")
+        text: i18n.tr("You have unsaved changes. Are you sure to close the file?")
+
+        onAccepted: {
+            newFileDialog.accepted();
+            primaryPage.closeEditor();
         }
     }
 

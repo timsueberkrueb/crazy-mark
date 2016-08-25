@@ -45,10 +45,17 @@ Panel {
             }
         },
         Action {
+            text: i18n.tr("Close")
+            iconName: "close"
+            onTriggered: {
+                contentManager.askCloseEditor();
+            }
+        },
+        Action {
             text: i18n.tr("Preview")
             iconName: "slideshow"
             onTriggered: {
-              pageView.addPageToNextColumn(editorPage, viewPage, {});
+              pageView.addPageToNextColumn(primaryPage, viewPage, {});
             }
             shortcut: "F5"
         }
@@ -172,7 +179,7 @@ Panel {
                     }
 
                     onClicked: {
-                        pageView.addPageToNextColumn(editorPage, settingsPage, {});
+                        pageView.addPageToNextColumn(primaryPage, settingsPage, {});
                         panel.close();
                     }
                 }

@@ -6,6 +6,8 @@ import Ubuntu.Components.Popups 1.3
 Item {
     id: item
     property var dialogInstance
+    property string title
+    property string text
 
     function open() {
         dialogInstance = PopupUtils.open(dialogComponent);
@@ -25,8 +27,8 @@ Item {
             signal selected(string filename)
             signal canceled()
 
-            title: i18n.tr("Unsaved changes")
-            text: i18n.tr("You have unsaved changes. Are you sure to continue?")
+            title: item.title
+            text: item.text
 
             Button {
                 text: i18n.tr("Yes")

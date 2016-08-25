@@ -33,14 +33,16 @@ SOURCES += src/main.cpp \
     src/palette.cpp \
     src/desktopfiledialog.cpp \
     src/markfile.cpp \
-    src/settings.cpp
+    src/settings.cpp \
+    src/highlightutils.cpp
 
 HEADERS += \
     src/markhighlighter.h \
     src/palette.h \
     src/desktopfiledialog.h \
     src/markfile.h \
-    src/settings.h
+    src/settings.h \
+    src/highlightutils.h
 
 RESOURCES += src/qml/qml.qrc \
     src/html/html.qrc \
@@ -76,3 +78,6 @@ INSTALLS+=oxide_user_script
 # Default rules for deployment.
 target.path = $${UBUNTU_CLICK_BINARY_PATH}
 INSTALLS+=target
+
+DISTFILES += \
+    PrimaryPage.qml

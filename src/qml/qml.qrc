@@ -20,6 +20,7 @@
         <file>NewFileDialog.qml</file>
         <file>MarkFileSelector.qml</file>
         <file>MarkFileSelectorPage.qml</file>
-        <file>UnsavedChangesDialog.qml</file>
+        <file>ConfirmDialog.qml</file>
+        <file>PrimaryPage.qml</file>
     </qresource>
 </RCC>

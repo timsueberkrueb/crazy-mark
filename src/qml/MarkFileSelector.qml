@@ -7,6 +7,7 @@ Rectangle {
     property alias rootFolder: folderModel.rootFolder
     property alias folder: folderModel.folder
     property bool canGoUp: folderModel.folder != rootFolder
+    property alias count: folderModel.count
 
     signal fileSelected(string fileName, string filePath)
 
