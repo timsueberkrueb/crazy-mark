@@ -63,7 +63,7 @@ Panel {
         id: rect
         width: parent.width
         height: Math.min(column.childrenRect.height, maximumHeight)
-        color: UbuntuColors.ash
+        color: theme.palette.normal.background
 
         Flickable {
             anchors.fill: parent
@@ -91,7 +91,7 @@ Panel {
                                 SlotsLayout.position: SlotsLayout.Leading
                                 name: modelData.iconName
                                 width: units.gu(2)
-                                color: "white"
+                                color: theme.palette.normal.foregroundText
                             }
                         }
 
@@ -167,7 +167,7 @@ Panel {
                             SlotsLayout.position: SlotsLayout.Leading
                             name: "settings"
                             width: units.gu(2)
-                            color: "white"
+                            color: theme.palette.normal.foregroundText
                         }
                     }
 

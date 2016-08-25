@@ -18,14 +18,6 @@ Window {
         applicationName: "crazy-mark.timsueberkrueb"
         anchorToKeyboard: true
 
-        theme.palette: Palette {
-            normal.foreground: "white"
-            normal.backgroundText: "white"
-            disabled.backgroundText: UbuntuColors.lightGrey
-            normal.background: UbuntuColors.ash
-            highlighted.background: UbuntuColors.darkGrey
-        }
-
         // Shortcuts
         Keys.onPressed: {
             if (event.modifiers & Qt.ControlModifier) {

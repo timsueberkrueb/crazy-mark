@@ -89,7 +89,6 @@ Page {
                             return i18n.tr("Please note that content exchange using a desktop-style dialog is only usable with a mouse and keyboard connected.")
                     }
                 }
-                color: "white"
                 width: parent.width
                 wrapMode: Text.WordWrap
                 Behavior on opacity {
