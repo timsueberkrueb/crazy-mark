@@ -7,6 +7,9 @@ Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-
 
 ## Installation
 
+### Ubuntu Store
+Crazy Mark is available for download from the [Ubuntu Store](https://uappexplorer.com/app/crazy-mark.timsueberkrueb).
+
 ### Ubuntu Desktop
 Make sure you have all dependencies installed:
 ```
