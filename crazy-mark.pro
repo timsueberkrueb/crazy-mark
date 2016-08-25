@@ -61,6 +61,7 @@ OTHER_FILES += $${CONF_FILES} \
                $${QML_FILES} \
                $${AP_TEST_FILES} \
                click/crazy-mark.timsueberkrueb.desktop \
+               click/manifest.json \
                README.md
 
 #specify where the config files are installed to
