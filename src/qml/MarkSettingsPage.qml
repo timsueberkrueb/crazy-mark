@@ -33,7 +33,7 @@ Page {
             spacing: units.gu(1)
 
             Label {
-                text: i18n.tr("Interface")
+                text: i18n.tr("Content")
                 fontSize: "x-large"
             }
 
@@ -107,6 +107,11 @@ Page {
                 }
             }
 
+            Label {
+                text: i18n.tr("Interface")
+                fontSize: "x-large"
+            }
+
             Row {
                 spacing: units.gu(1)
 
@@ -141,11 +146,6 @@ Page {
                 Label {
                     text: i18n.tr("Open preview on startup")
                 }
-            }
-
-            Label {
-                text: i18n.tr("Editor")
-                fontSize: "x-large"
             }
 
             Row {

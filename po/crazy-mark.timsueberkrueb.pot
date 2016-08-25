@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 18:49+0000\n"
+"POT-Creation-Date: 2016-08-25 18:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,7 +184,6 @@ msgid "%1%2 - Editor"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:16
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:147
 msgid "Editor"
 msgstr ""
 
@@ -258,7 +257,7 @@ msgid "Settings"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:36
-msgid "Interface"
+msgid "Content"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:42
@@ -303,11 +302,15 @@ msgid ""
 "usable with a mouse and keyboard connected."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:124
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:111
+msgid "Interface"
+msgstr ""
+
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:129
 msgid "Start with expanded toolbar"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:142
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:147
 msgid "Open preview on startup"
 msgstr ""
 
