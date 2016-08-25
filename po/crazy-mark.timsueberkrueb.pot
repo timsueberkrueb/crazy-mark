@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 18:37+0000\n"
+"POT-Creation-Date: 2016-08-25 18:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,7 +184,7 @@ msgid "%1%2 - Editor"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:16
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:139
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:147
 msgid "Editor"
 msgstr ""
 
@@ -247,7 +247,7 @@ msgid "Options"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:157
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:160
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:168
 msgid "Auto completion"
 msgstr ""
 
@@ -265,63 +265,65 @@ msgstr ""
 msgid "Content exchange via ..."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:44
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:46
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:51
 msgid "Mark Dialog"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:45
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:47
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:52
 msgid "Content Hub"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:46
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:53
 msgid "Desktop Dialog"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:82
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:90
 #, qt-format
 msgid "You're running in confined mode. You can only write files to '%1'"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:84
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:92
 #, qt-format
 msgid ""
 "Mark Dialog allows you to write to '%1'. If you wish more control choose "
 "Desktop Dialog."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:86
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:94
 msgid ""
 "Please note that due to platform limitations this option doesn't offer the "
 "best experience, yet. "
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:89
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:97
 msgid ""
 "Please note that content exchange using a desktop-style dialog is only "
 "usable with a mouse and keyboard connected."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:116
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:124
 msgid "Start with expanded toolbar"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:134
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:142
 msgid "Open preview on startup"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:175
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:183
 msgid "Default bullet character"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:177
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:185
 msgid "Hyphen\t-"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:178
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:186
 msgid "Asterisk\t*"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:179
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:187
 msgid "Plus\t+"
 msgstr ""
 

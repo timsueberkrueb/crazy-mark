@@ -40,11 +40,19 @@ Page {
             OptionSelector {
                 id: selectorContentExchange
                 text: i18n.tr("Content exchange via ...")
-                model: [
-                    i18n.tr("Mark Dialog"),
-                    i18n.tr("Content Hub"),
-                    i18n.tr("Desktop Dialog")
-                ]
+                model: {
+                    if (confined)
+                        return [
+                            i18n.tr("Mark Dialog"),
+                            i18n.tr("Content Hub")
+                        ]
+                    else
+                        return [
+                            i18n.tr("Mark Dialog"),
+                            i18n.tr("Content Hub"),
+                            i18n.tr("Desktop Dialog")
+                        ]
+                }
                 onSelectedIndexChanged: {
                     switch (selectedIndex) {
                         case 0:
