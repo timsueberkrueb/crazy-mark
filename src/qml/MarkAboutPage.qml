@@ -68,8 +68,7 @@ Page {
             }
 
             Label {
-                text: i18n.tr("- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> " +
-                              "licensed under the <a href='%3'>MIT License</a>")
+                text: i18n.tr("- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> licensed under the <a href='%3'>MIT License</a>")
                               .arg("https://github.com/chjj/marked")
                               .arg("https://github.com/chjj/")
                               .arg("https://opensource.org/licenses/MIT")
@@ -80,8 +79,7 @@ Page {
             }
 
             Label {
-                text: i18n.tr("- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> " +
-                              "licensed under the <a href='%3'>SIL Open Font License, Version 1.1</a>")
+                text: i18n.tr("- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> licensed under the <a href='%3'>SIL Open Font License, Version 1.1</a>")
                               .arg("https://www.fontsquirrel.com/fonts/Pecita")
                               .arg("https://www.fontsquirrel.com/fonts/list/foundry/philippe-cochy")
                               .arg("https://www.fontsquirrel.com/license/Pecita")

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 18:57+0000\n"
+"POT-Creation-Date: 2016-08-25 20:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,23 +90,27 @@ msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:71
 #, qt-format
-msgid "- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> "
+msgid ""
+"- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> "
+"licensed under the <a href='%3'>MIT License</a>"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:83
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:82
 #, qt-format
-msgid "- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> "
+msgid ""
+"- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> licensed "
+"under the <a href='%3'>SIL Open Font License, Version 1.1</a>"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:107
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:105
 msgid "Rate"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:115
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:113
 msgid "Report bug"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:123
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:121
 msgid "Contribute"
 msgstr ""
 
