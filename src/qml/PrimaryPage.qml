@@ -91,12 +91,6 @@ Page {
             }
             source: "media/images/arrow.svg"
             smooth: true
-
-            ColorOverlay {
-                anchors.fill: parent
-                source: parent
-                color: theme.palette.normal.foregroundText
-            }
         }
 
         Label {
