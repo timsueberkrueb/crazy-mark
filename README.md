@@ -2,6 +2,10 @@
 
 A simple markdown editor for Ubuntu
 
+## Credits
+* Thanks to [Sam Hewitt](http://samuelhewitt.com/) for creating the [Ubuntu Icon Resource Kit](https://github.com/snwh/ubuntu-icon-resource-kit) which was used to create the application icon.
+* Thanks to all translators [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
+
 ## Translations
 Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
 

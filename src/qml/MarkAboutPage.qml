@@ -62,6 +62,21 @@ Page {
             }
 
             Label {
+                text: i18n.tr("Credits")
+                fontSize: "large"
+            }
+
+            Label {
+                text: i18n.tr("Thanks to <a href='%1'>Sam Hewitt</a> for creating the <a href='%2'>Ubuntu Icon Resource Kit</a> which was used to create the application icon.")
+                       .arg("http://samuelhewitt.com/")
+                       .arg("https://github.com/snwh/ubuntu-icon-resource-kit")
+                width: parent.width
+                wrapMode: Text.WordWrap
+                linkColor: UbuntuColors.orange
+                onLinkActivated: Qt.openUrlExternally(link);
+            }
+
+            Label {
                 text: i18n.tr("The following third-party software comes with Crazy Mark and is licensed as specified:")
                 width: parent.width
                 wrapMode: Text.WordWrap
@@ -87,6 +102,11 @@ Page {
                 wrapMode: Text.WordWrap
                 linkColor: UbuntuColors.orange
                 onLinkActivated: Qt.openUrlExternally(link);
+            }
+
+            Label {
+                text: i18n.tr("License and Copyright")
+                fontSize: "large"
             }
 
             Label {
