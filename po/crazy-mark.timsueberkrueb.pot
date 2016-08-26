@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-25 20:34+0000\n"
+"POT-Creation-Date: 2016-08-26 10:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,7 +250,7 @@ msgid "Options"
 msgstr ""
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:157
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:168
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:167
 msgid "Auto completion"
 msgstr ""
 
@@ -297,40 +297,41 @@ msgstr ""
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:94
 msgid ""
 "Please note that due to platform limitations this option doesn't offer the "
-"best experience, yet. "
+"best experience, yet. Please make sure that you have the filemanager app "
+"installed."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:97
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:96
 msgid ""
 "Please note that content exchange using a desktop-style dialog is only "
 "usable with a mouse and keyboard connected."
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:111
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:110
 msgid "Interface"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:129
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:128
 msgid "Start with expanded toolbar"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:147
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:146
 msgid "Open preview on startup"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:183
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:182
 msgid "Default bullet character"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:185
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:184
 msgid "Hyphen\t-"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:186
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:185
 msgid "Asterisk\t*"
 msgstr ""
 
-#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:187
+#: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:186
 msgid "Plus\t+"
 msgstr ""
 
