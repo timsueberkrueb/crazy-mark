@@ -2,89 +2,95 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-26 10:46+0000\n"
+"POT-Creation-Date: 2016-08-27 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Language-Team: French (https://www.transifex.com/tim-sueberkrueb/teams/66309/fr/)\n"
+"Last-Translator: Anne017 <anneonyme017@gmail.com>, 2016\n"
+"Language-Team: French (https://www.transifex.com/tim-sueberkrueb/teams/66309/"
+"fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ConfirmDialog.qml:34
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:110
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ConfirmDialog.qml:43
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:119
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ContentManager.qml:133
 msgid "Unsaved changes"
-msgstr ""
+msgstr "Modifications non enregistrées"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ContentManager.qml:134
 msgid "You have unsaved changes. Are you sure to continue?"
 msgstr ""
+"Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir "
+"continuer ?"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ContentManager.qml:144
 msgid "Close file"
-msgstr ""
+msgstr "Fermer le fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ContentManager.qml:145
 msgid "You have unsaved changes. Are you sure to close the file?"
 msgstr ""
+"Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir "
+"fermer le fichier ?"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:29
 msgid "Save file"
-msgstr ""
+msgstr "Enregistrer le fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:34
 msgid "Filename"
-msgstr ""
+msgstr "Nom du fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:39
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:32
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/FilenameDialog.qml:48
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:29
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:86
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:40
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:6
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:11
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:46
 msgid "A markdown editor for Ubuntu"
-msgstr ""
+msgstr "Un éditeur de Markdown pour Ubuntu"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:51
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Version %1"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:57
 #, qt-format
 msgid "Source code available on <a href='%1'>GitHub</a>."
-msgstr ""
+msgstr "Code source disponible sur <a href='%1'>GitHub</a>."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:65
 msgid "Credits"
-msgstr ""
+msgstr "Contributeurs"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:70
 #, qt-format
@@ -92,12 +98,17 @@ msgid ""
 "Thanks to <a href='%1'>Sam Hewitt</a> for creating the <a href='%2'>Ubuntu "
 "Icon Resource Kit</a> which was used to create the application icon."
 msgstr ""
+"Merci à <a href='%1'>Sam Hewitt</a> d'avoir publié le <a href='%2'>kit de "
+"création d'icônes pour Ubuntu</a> qui a été utilisé pour créer l'icône de "
+"l'application."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:80
 msgid ""
 "The following third-party software comes with Crazy Mark and is licensed as "
 "specified:"
 msgstr ""
+"Le logiciel tiers ci-dessous est fourni avec Crazy Mark, il est sous la "
+"licence spécifiée :"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:86
 #, qt-format
@@ -105,6 +116,8 @@ msgid ""
 "- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> "
 "licensed under the <a href='%3'>MIT License</a>"
 msgstr ""
+"- <a href='%1'>Marked.js</a> par <a href='%2'>Christopher Jeffrey</a> sous "
+"<a href='%3'>Licence MIT</a>"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:97
 #, qt-format
@@ -112,195 +125,199 @@ msgid ""
 "- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> licensed "
 "under the <a href='%3'>SIL Open Font License, Version 1.1</a>"
 msgstr ""
+"- <a href='%1'>Police de caractère Pecita</a> par <a href='%2'>Philippe "
+"Cochy</a> sous <a href='%3'>Licence SIL Open Font, Version 1.1</a>"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:108
 msgid "License and Copyright"
-msgstr ""
+msgstr "Licence et Copyright"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:125
 msgid "Rate"
-msgstr ""
+msgstr "Noter"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:133
 msgid "Report bug"
-msgstr ""
+msgstr "Signaler une anomalie"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkAboutPage.qml:141
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuer"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:14
 msgid "Undo"
-msgstr ""
+msgstr "Annuler"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:23
 msgid "Redo"
-msgstr ""
+msgstr "Rétablir"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:32
 msgid "Insert list"
-msgstr ""
+msgstr "Insérer une liste"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:40
 msgid "Insert code"
-msgstr ""
+msgstr "Insérer du code"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:50
 msgid "Insert link"
-msgstr ""
+msgstr "Insérer un lien"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:60
 msgid "Insert title"
-msgstr ""
+msgstr "Insérer un titre"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:67
 msgid "Insert image"
-msgstr ""
+msgstr "Insérer une image"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:78
 msgid "Insert line"
-msgstr ""
+msgstr "Insérer une ligne"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:84
 msgid "Insert quote"
-msgstr ""
+msgstr "Insérer une citation"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:86
 msgid "Quote"
-msgstr ""
+msgstr "Citation"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:90
 msgid "Insert table"
-msgstr ""
+msgstr "Insérer un tableau"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:96
 msgid "Italic"
-msgstr ""
+msgstr "Italique"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:98
 msgid "Italic text"
-msgstr ""
+msgstr "Texte en italique"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:102
 msgid "Bold"
-msgstr ""
+msgstr "Gras"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:104
 msgid "Bold text"
-msgstr ""
+msgstr "Texte en gras"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:108
 msgid "Strikethrough"
-msgstr ""
+msgstr "Barré"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkActionBar.qml:110
 msgid "Strikethrough text"
-msgstr ""
+msgstr "Texte barré"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:15
 #, qt-format
 msgid "%1%2 - Editor"
-msgstr ""
+msgstr "%1%2 - Éditeur"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:16
 msgid "Editor"
-msgstr ""
+msgstr "Éditeur"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:21
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:36
 msgid "Hide toolbar"
-msgstr ""
+msgstr "Masquer la barre d'outils"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkEditorPage.qml:36
 msgid "Show toolbar"
-msgstr ""
+msgstr "Afficher la barre d'outils"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:22
 msgid "Select"
-msgstr ""
+msgstr "Sélectionner"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:46
 msgid "Open file"
-msgstr ""
+msgstr "Ouvrir un fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:60
 msgid "Save as ..."
-msgstr ""
+msgstr "Enregistrer sous..."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:106
 msgid "File exits"
-msgstr ""
+msgstr "Ce fichier existe déjà"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkFileSelectorPage.qml:107
 #, qt-format
 msgid "Do you want to override %1?"
-msgstr ""
+msgstr "Souhaitez-vous écraser %1 ?"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:16
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:24
 msgid "Open"
-msgstr ""
+msgstr "Ouvrir"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:41
 msgid "Save as"
-msgstr ""
+msgstr "Enregistrer sous"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:48
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:55
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkViewPage.qml:8
 msgid "Preview"
-msgstr ""
+msgstr "Aperçu"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:123
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:157
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:167
 msgid "Auto completion"
-msgstr ""
+msgstr "Auto-complétion"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkPanel.qml:170
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:7
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/PrimaryPage.qml:48
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:36
 msgid "Content"
-msgstr ""
+msgstr "Contenu"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:42
 msgid "Content exchange via ..."
-msgstr ""
+msgstr "Échange de contenu via..."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:46
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:51
 msgid "Mark Dialog"
-msgstr ""
+msgstr "Fenêtre de type Mark"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:47
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:52
 msgid "Content Hub"
-msgstr ""
+msgstr "Plateforme de contenu"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:53
 msgid "Desktop Dialog"
-msgstr ""
+msgstr "Fenêtre de type bureau"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:90
 #, qt-format
 msgid "You're running in confined mode. You can only write files to '%1'"
 msgstr ""
+"Vous tournez en mode confiné. Vous pouvez uniquement écrire dans des "
+"fichiers sous « %1 »."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:92
 #, qt-format
@@ -308,6 +325,8 @@ msgid ""
 "Mark Dialog allows you to write to '%1'. If you wish more control choose "
 "Desktop Dialog."
 msgstr ""
+"« Fenêtre de type Mark » vous permet d'écrire sous « %1 ». Si vous souhaitez "
+"plus de contrôle, choisissez « Fenêtre de type bureau »."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:94
 msgid ""
@@ -315,79 +334,86 @@ msgid ""
 "best experience, yet. Please make sure that you have the filemanager app "
 "installed."
 msgstr ""
+"Veuillez noter que cette option n'offre pas encore la meilleure des "
+"expériences en raison de limitations sur la plateforme. Assurez-vous que "
+"l'application Gestionnaire de fichiers est installée."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:96
 msgid ""
 "Please note that content exchange using a desktop-style dialog is only "
 "usable with a mouse and keyboard connected."
 msgstr ""
+"Veuillez noter que le contenu échangé en utilisant la fenêtre de type bureau "
+"est uniquement utilisable avec une souris et un clavier connectés."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:110
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:128
 msgid "Start with expanded toolbar"
-msgstr ""
+msgstr "Démarrer avec un barre d'outils étendue"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:146
 msgid "Open preview on startup"
-msgstr ""
+msgstr "Ouvrir l'aperçu au démarrage"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:182
 msgid "Default bullet character"
-msgstr ""
+msgstr "Symbole de puce par défaut pour les listes"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:184
 msgid "Hyphen\t-"
-msgstr ""
+msgstr "Trait d'union\t-"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:185
 msgid "Asterisk\t*"
-msgstr ""
+msgstr "Astérisque\t*"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:186
 msgid "Plus\t+"
-msgstr ""
+msgstr "Plus\t+"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:38
 msgid "Columns"
-msgstr ""
+msgstr "Colonnes"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:52
 msgid "Rows"
-msgstr ""
+msgstr "Lignes"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:66
 msgid "Cell width"
-msgstr ""
+msgstr "Largeur de cellule"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkTableDialog.qml:91
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:27
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/PrimaryPage.qml:55
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/PrimaryPage.qml:139
 msgid "New file"
-msgstr ""
+msgstr "Nouveau fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:28
 msgid "Are you sure to create a new file? All unsaved changes will be lost."
 msgstr ""
+"Êtes-vous sûr de vouloir créer un nouveau fichier ? Toutes les modifications "
+"non enregistrées seront perdues."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/NewFileDialog.qml:31
 msgid "Discard"
-msgstr ""
+msgstr "Jeter"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/PrimaryPage.qml:98
 msgid "Create your first file"
-msgstr ""
+msgstr "Créer votre premier fichier"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/PrimaryPage.qml:114
 msgid "Documents or folders you create will show up here."
-msgstr ""
+msgstr "Les documents ou les dossiers que vous créerez s'afficheront ici."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/mark.js:2
 msgid "word"
-msgstr ""
+msgstr "mot"

@@ -2,20 +2,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-26 10:46+0000\n"
+"POT-Creation-Date: 2016-08-27 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tim Süberkrüb <tim.sueberkrueb@gmail.com>, 2016\n"
-"Language-Team: German (https://www.transifex.com/tim-sueberkrueb/teams/66309/de/)\n"
+"Language-Team: German (https://www.transifex.com/tim-sueberkrueb/teams/66309/"
+"de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/ConfirmDialog.qml:34
@@ -312,8 +313,7 @@ msgstr "Desktop-Dialog"
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:90
 #, qt-format
 msgid "You're running in confined mode. You can only write files to '%1'"
-msgstr ""
-"Die App läuft im Sandbox-Modus. Du kannst Dateien nur in '%1' ablegen."
+msgstr "Die App läuft im Sandbox-Modus. Du kannst Dateien nur in '%1' ablegen."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:92
 #, qt-format
@@ -321,8 +321,8 @@ msgid ""
 "Mark Dialog allows you to write to '%1'. If you wish more control choose "
 "Desktop Dialog."
 msgstr ""
-"Der Mark-Dialog lässt dich in '%1' schreiben. Wenn du mehr Auswahl brauchst,"
-" wähle den Desktop-Dialog."
+"Der Mark-Dialog lässt dich in '%1' schreiben. Wenn du mehr Auswahl brauchst, "
+"wähle den Desktop-Dialog."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:94
 msgid ""
@@ -330,9 +330,9 @@ msgid ""
 "best experience, yet. Please make sure that you have the filemanager app "
 "installed."
 msgstr ""
-"Aufgrund von Plattform-Einschränkungen bringt diese Option leider noch nicht"
-" die beste Nutzererfahrung mit sich. Stelle sicher, dass du die "
-"Dateimanager-App installiert hast."
+"Aufgrund von Plattform-Einschränkungen bringt diese Option leider noch nicht "
+"die beste Nutzererfahrung mit sich. Stelle sicher, dass du die Dateimanager-"
+"App installiert hast."
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:96
 msgid ""
@@ -346,7 +346,7 @@ msgstr "Benutzeroberfläche"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:128
 msgid "Start with expanded toolbar"
-msgstr "Starte mit erweiterte Toolbar"
+msgstr "Starte mit erweiterter Toolbar"
 
 #: /home/tim/Dev/Projects/crazy-mark/src/qml/MarkSettingsPage.qml:146
 msgid "Open preview on startup"
