@@ -12,7 +12,10 @@ Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-
 ## Installation
 
 ### Ubuntu Store
-Crazy Mark is available for download from the [Ubuntu Store](https://uappexplorer.com/app/crazy-mark.timsueberkrueb).
+Crazy Mark is available for download from the [Ubuntu Store](https://uappexplorer.com/app/crazy-mark.timsueberkrueb). Please note that due to the Ubuntu Touch confinement policies this version can only write to `~/.local/share/crazy-mark.timsueberkrueb/`.
+
+### Open Store
+If you want to have access to the files in your home directory (e.g. `~/Documents`), you can install the [Open Store version](https://open.uappexplorer.com/app/crazy-mark.timsueberkrueb).
 
 ### Ubuntu Desktop
 Make sure you have all dependencies installed:
@@ -52,7 +55,3 @@ Copyright © 2016 Tim Süberkrüb
 This application is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 See LICENSE for more information.
-
-
-
-
