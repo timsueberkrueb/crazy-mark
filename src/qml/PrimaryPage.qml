@@ -82,7 +82,7 @@ Page {
 
         Image {
             id: imageArrow
-            visible: fileSelector.count == 0
+            visible: fileSelector.count == 0 && !fileSelector.canGoUp
             anchors {
                 top: parent.top
                 right: parent.right
@@ -94,7 +94,7 @@ Page {
         }
 
         Label {
-            visible: fileSelector.count == 0
+            visible: fileSelector.count == 0 && !fileSelector.canGoUp
             text: i18n.tr("Create your first file")
             font.family: "Pecita"
             font.pixelSize: units.dp(18)
