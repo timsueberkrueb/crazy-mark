@@ -42,3 +42,10 @@ CMakeLists.txt.user*
 
 # Executable
 crazy-mark
+
+# Snapcraft
+parts/
+stage/
+prime/
+*.snap
+*_source.tar.bz2

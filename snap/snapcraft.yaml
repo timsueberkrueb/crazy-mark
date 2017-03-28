@@ -1,0 +1,53 @@
+name: crazy-mark
+version: '0.2.3'
+summary: A markdown editor originally created for Ubuntu Touch
+description: |
+  A markdown editor for Ubuntu Source code available on GitHub:
+  https://github.com/tim-sueberkrueb/crazy-mark
+  Copyright © 2016 Tim Süberkrüb
+
+grade: devel
+confinement: devmode
+
+apps:
+  crazy-mark:
+    command: desktop-launch $SNAP/bin/crazy-launch
+    plugs:
+      - unity7
+      - x11
+      - opengl
+      - home
+      - browser-sandbox
+      - gsettings
+      - platform
+      - network
+      - network-observe
+      - network-control
+      - network-bind
+plugs:
+  platform:
+    interface: content
+    content: ubuntu-app-platform1
+    target: ubuntu-app-platform
+    default-provider: ubuntu-app-platform
+  browser-sandbox:
+    interface: browser-support
+
+parts:
+  launcher:
+    plugin: dump
+    source: snap/
+    organize:
+        launcher.sh: bin/crazy-launch
+  crazy-mark:
+    plugin: qmake
+    qt-version: qt5
+    build-attributes: ["no-system-libraries"]
+    build-packages:
+      - libqt5svg5-dev
+    stage-packages:
+      - libqt5svg5
+    after: [desktop-ubuntu-app-platform]
+    install: |
+      mkdir $SNAPCRAFT_PART_INSTALL/ubuntu-app-platform
+

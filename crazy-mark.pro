@@ -79,7 +79,11 @@ oxide_user_script.files = src/qml/oxide-user.js
 INSTALLS+=oxide_user_script
 
 # Default rules for deployment.
-target.path = $${UBUNTU_CLICK_BINARY_PATH}
+isEmpty(UBUNTU_CLICK_BINARY_PATH) {
+  target.path = /bin/
+} else {
+  target.path = $${UBUNTU_CLICK_BINARY_PATH}
+}
 INSTALLS+=target
 
 DISTFILES += \
