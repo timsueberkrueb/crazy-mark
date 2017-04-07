@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Crazy Mark
+GenericName=Markdown Editor
+Comment=Simple markdown editor for Ubuntu
+Exec=crazy-mark
+Icon=${SNAP}/meta/gui/crazy-mark.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility

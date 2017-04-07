@@ -51,4 +51,6 @@ parts:
     after: [desktop-ubuntu-app-platform]
     install: |
       mkdir $SNAPCRAFT_PART_INSTALL/ubuntu-app-platform
+    organize:
+      icon.png: meta/gui/crazy-mark.png
 
