@@ -1,57 +1,60 @@
 # Crazy Mark
 
+[![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![GitHub release](https://img.shields.io/github/release/tim-sueberkrueb/crazy-mark.svg)](https://github.com/tim-sueberkrueb/crazy-mark/releases)
+[![GitHub issues](https://img.shields.io/github/issues/tim-sueberkrueb/crazy-mark.svg)](https://github.com/tim-sueberkrueb/crazy-mark/issues)
+[![Maintained](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/tim-sueberkrueb/crazy-mark/commits/develop)
+
 A simple markdown editor for Ubuntu
+
+Crazy Mark is available for download from the [Open Store](https://open-store.io/app/crazy-mark.timsueberkrueb).
+
+## Dependencies
+
+Qt >= 5.4.0 with at least the following modules is required:
+
+ * [qtbase](http://code.qt.io/cgit/qt/qtbase.git)
+ * [qtdeclarative](http://code.qt.io/cgit/qt/qtdeclarative.git)
+ * [qtsvg](http://code.qt.io/cgit/qt/qtsvg.git/)
+
+The following modules and their dependencies are required:
+
+ * [Ubuntu UI Toolkit 1.3](https://github.com/ubports/ubuntu-ui-toolkit)
+
+
+## Installation
+
+We use [clickable](http://clickable.bhdouglass.com/).
+
+To build and package the application, run:
+
+```bash
+clickable build
+clickable build-click
+```
+
+To install the application on your device, make sure your device is
+connected to your development machine with an USB cable and developer mode is enabled.
+
+Run:
+
+```
+clickable install
+clickable launch
+```
+
+## Translations
+Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
 
 ## Credits
 * Thanks to [Sam Hewitt](http://samuelhewitt.com/) for creating the [Ubuntu Icon Resource Kit](https://github.com/snwh/ubuntu-icon-resource-kit) which was used to create the application icon.
 * Thanks to all translators [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
 
-## Translations
-Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
-
-## Installation
-
-### Ubuntu Store
-Crazy Mark is available for download from the [Ubuntu Store](https://uappexplorer.com/app/crazy-mark.timsueberkrueb). Please note that due to the Ubuntu Touch confinement policies this version can only write to `~/.local/share/crazy-mark.timsueberkrueb/`.
-
-### Open Store
-If you want to have access to the files in your home directory (e.g. `~/Documents`), you can install the [Open Store version](https://open.uappexplorer.com/app/crazy-mark.timsueberkrueb).
-
-### Ubuntu Desktop
-Make sure you have all dependencies installed:
-```
-sudo apt update
-sudo apt install qt5-default
-sudo apt install qtdeclarative5-dev qtbase5-dev
-sudo apt install qtdeclarative5-ubuntu-content1
-sudo apt install libqt5svg5-dev
-```
-Clone, build and run:
-```
-git clone https://github.com/tim-sueberkrueb/crazy-mark
-cd crazy-mark
-qmake; make
-./crazy-mark
-```
-Tested on Ubuntu 16.04.
-
-### Develop for Ubuntu phone
-Make sure you have the [Ubuntu SDK installed](https://developer.ubuntu.com/en/phone/platform/sdk/installing-the-sdk/).
-Open the project (File > Open file or project > Select `crazy-mark.pro`)
-
-Select and/or create all necessary build kits in the `Projects` tab.
-
-Attach a device and click the run button.
-
 ## Included third-party software
 The following third-party software comes with Crazy Mark and is licensed as specified:
-* [Marked.js](https://github.com/chjj/marked) by [Christopher Jeffrey](https://github.com/chjj/) licensed under the MIT License (see LICENSE.MIT)
+* [Marked.js](https://github.com/chjj/marked) by [Christopher Jeffrey](https://github.com/chjj/) licensed under the MIT License (see `src/js/LICENSE.marked`)
 * [Pecita font](https://www.fontsquirrel.com/fonts/Pecita) by [Philippe Cochy](https://www.fontsquirrel.com/fonts/list/foundry/philippe-cochy) licensed under the [SIL Open Font License, Version 1.1](https://www.fontsquirrel.com/license/Pecita).
 
-## License and Copyright
+## Licensing
 
-Copyright © 2016 Tim Süberkrüb
-
-This application is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-See LICENSE for more information.
+Licensed under the terms of the GNU General Public License version 3 or, at your option, any later version.
