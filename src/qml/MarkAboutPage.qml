@@ -122,10 +122,10 @@ Page {
                 spacing: units.dp(8)
 
                 Button {
-                    text: "★ %1".arg(i18n.tr("Rate"))
+                    text: "★ %1".arg(i18n.tr("Store"))
                     color: UbuntuColors.green
                     onClicked: {
-                        Qt.openUrlExternally("scope://com.canonical.scopes.clickstore?q=Crazy Mark")
+                        Qt.openUrlExternally("openstore://crazy-mark.timsueberkrueb")
                     }
                 }
 
