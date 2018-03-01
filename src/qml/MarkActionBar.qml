@@ -87,12 +87,6 @@ ActionBar {
            }
         },
         Action {
-           text: i18n.tr("Insert table")
-           onTriggered: {
-               tableDialog.show();
-           }
-        },
-        Action {
            text: i18n.tr("Italic")
            onTriggered: {
                Marker.markSelected("*", i18n.tr("Italic text"));
@@ -120,23 +114,6 @@ ActionBar {
         else if (event.key === Qt.Key_Z && (event.modifiers & Qt.ControlModifier)  && (event.modifiers & Qt.ShiftModifier)) {
             if (markTextArea.canRedo)
                 markTextArea.redo();
-        }
-    }
-
-    MarkTableDialog {
-        id: tableDialog
-        onTableCreated: {
-            var text = "\n\n"
-
-            for (var r=0; r<=rows; r++) {
-                for (var c=0; c<columns; c++) {
-                    text += "|";
-                    for (var i=0; i<cellWidth; i++)
-                        text += r == 1 ? "-" : " ";
-                }
-                text += "|\n"
-            }
-            markTextArea.insert(markTextArea.cursorPosition, text);
         }
     }
 

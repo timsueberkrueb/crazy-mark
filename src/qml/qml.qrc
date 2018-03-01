@@ -14,7 +14,6 @@
         <file>ContentManager.qml</file>
         <file>ImportContentPopup.qml</file>
         <file>ExportContentPopup.qml</file>
-        <file>MarkTableDialog.qml</file>
         <file>FilenameDialog.qml</file>
         <file alias="icon.png">../../icon.png</file>
         <file>NewFileDialog.qml</file>
