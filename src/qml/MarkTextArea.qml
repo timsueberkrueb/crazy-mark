@@ -13,7 +13,7 @@ TextArea {
 
     font.family: "Ubuntu Mono"
     persistentSelection: true
-    wrapMode: TextEdit.NoWrap
+    wrapMode: TextEdit.WordWrap
 
     onTextChanged: {
         if (!loaded) {
