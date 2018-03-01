@@ -5,11 +5,11 @@
     "title": "Crazy Mark",
     "hooks": {
         "crazy-mark": {
-            "apparmor": "crazy-mark.timsueberkrueb.apparmor",
-            "desktop": "crazy-mark.timsueberkrueb.desktop"
+            "apparmor": "crazy-mark.apparmor",
+            "desktop": "crazy-mark.desktop"
         }
     },
     "version": "0.2.3",
-    "maintainer": "Tim Süberkrüb <tim.sueberkrueb@web.de>",
+    "maintainer": "Tim Süberkrüb <dev@timsueberkrueb@io>",
     "framework": "ubuntu-sdk-15.04.4"
 }

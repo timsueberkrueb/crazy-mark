@@ -52,15 +52,14 @@ RESOURCES += src/qml/qml.qrc \
 QML_FILES += $$files(*.qml,true) \
              $$files(*.js,true)
 
-CONF_FILES +=  click/crazy-mark.timsueberkrueb.apparmor \
-               click/crazy-mark.timsueberkrueb.apparmor.openstore \
+CONF_FILES +=  click/crazy-mark.apparmor \
                icon.png
 
 #show all the files in QtCreator
 OTHER_FILES += $${CONF_FILES} \
                $${QML_FILES} \
                $${AP_TEST_FILES} \
-               click/crazy-mark.timsueberkrueb.desktop \
+               click/crazy-mark.desktop \
                click/manifest.json \
                README.md
 
@@ -70,7 +69,7 @@ config_files.files += $${CONF_FILES}
 INSTALLS+=config_files
 
 desktop_file.path = /
-desktop_file.files = click/crazy-mark.timsueberkrueb.desktop
+desktop_file.files = click/crazy-mark.desktop
 desktop_file.CONFIG += no_check_exist
 INSTALLS+=desktop_file
 
