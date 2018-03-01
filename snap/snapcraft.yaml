@@ -1,11 +1,10 @@
 name: crazy-mark
-version: '0.2.3'
+version: git
 summary: A markdown editor originally created for Ubuntu Touch
 description: |
   A markdown editor for Ubuntu
   Source code available on GitHub:
   https://github.com/tim-sueberkrueb/crazy-mark
-  Copyright © 2016 Tim Süberkrüb
 
 grade: devel
 confinement: devmode
