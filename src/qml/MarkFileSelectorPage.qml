@@ -103,8 +103,8 @@ Page {
 
             property string fileName
 
-            title: i18n.tr("File exits")
-            text: i18n.tr("Do you want to override %1?".arg(fileName))
+            title: i18n.tr("File exists")
+            text: i18n.tr("Do you want to overwrite %1?".arg(fileName))
 
             Button {
                 text: i18n.tr("Yes")
