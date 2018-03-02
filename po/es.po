@@ -1,0 +1,389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 09:38+0000\n"
+"PO-Revision-Date: 2018-03-02 13:01+0100\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ConfirmDialog.qml:34
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:110
+msgid "Yes"
+msgstr "Si"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ConfirmDialog.qml:43
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:119
+msgid "No"
+msgstr "No"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ContentManager.qml:133
+msgid "Unsaved changes"
+msgstr "Cambios sin guardar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ContentManager.qml:134
+msgid "You have unsaved changes. Are you sure to continue?"
+msgstr "Tiene cambios sin guardar. ¿Seguro que quiere continuar?"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ContentManager.qml:144
+msgid "Close file"
+msgstr "Cerrar archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/ContentManager.qml:145
+msgid "You have unsaved changes. Are you sure to close the file?"
+msgstr "Tiene cambios sin guardar. ¿Seguro que quiere cerrar el archivo?"
+
+#: /home/tim/Dev/crazy-mark/src/qml/FilenameDialog.qml:29
+msgid "Save file"
+msgstr "Guardar archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/FilenameDialog.qml:34
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/FilenameDialog.qml:39
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:32
+msgid "Save"
+msgstr "Guardar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/FilenameDialog.qml:48
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:29
+#: /home/tim/Dev/crazy-mark/src/qml/NewFileDialog.qml:40
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:6
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:11
+msgid "About"
+msgstr "Acerca de"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:46
+msgid "A markdown editor for Ubuntu"
+msgstr "Un editor de markdown para Ubuntu"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:51
+#, qt-format
+msgid "Version %1"
+msgstr "Versión %1"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:57
+#, qt-format
+msgid "Source code available on <a href='%1'>GitHub</a>."
+msgstr "Código fuente disponible en <a href='%1'>GitHub</a>."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:65
+msgid "Credits"
+msgstr "Reconocimientos"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:70
+#, qt-format
+msgid ""
+"Thanks to <a href='%1'>Sam Hewitt</a> for creating the <a href='%2'>Ubuntu "
+"Icon Resource Kit</a> which was used to create the application icon."
+msgstr ""
+"Gracias a <a href='%1'>Sam Hewitt</a> por crear el <a href='%2'>kit de "
+"recursos de icono de Ubuntu</a> que se ha usado para el icono de esta aplicación."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:80
+msgid ""
+"The following third-party software comes with Crazy Mark and is licensed as "
+"specified:"
+msgstr ""
+"El siguiente programa de terceros viene con Crazy Mark y es licenciado como "
+"se especifica:"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:86
+#, qt-format
+msgid ""
+"- <a href='%1'>Marked.js</a> by <a href='%2'>Christopher Jeffrey</a> "
+"licensed under the <a href='%3'>MIT License</a>"
+msgstr ""
+"- <a href='%1'>Marked.js</a> por <a href='%2'>Christopher Jeffrey</a> "
+"licenciado según la <a href='%3'>MIT License</a>"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:97
+#, qt-format
+msgid ""
+"- <a href='%1'>Pecita font</a> by <a href='%2'>Philippe Cochy</a> licensed "
+"under the <a href='%3'>SIL Open Font License, Version 1.1</a>"
+msgstr ""
+"- <a href='%1'>Pecita font</a> por <a href='%2'>Philippe Cochy</a> licenciado "
+"según la <a href='%3'>SIL Open Font License, Version 1.1</a>"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:108
+msgid "License and Copyright"
+msgstr "Licencia y copyright"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:125
+msgid "Store"
+msgstr "Tienda"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:133
+msgid "Report bug"
+msgstr "Informar de un error"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkAboutPage.qml:141
+msgid "Contribute"
+msgstr "Contribuir"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:14
+msgid "Undo"
+msgstr "Deshacer"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:23
+msgid "Redo"
+msgstr "Rehacer"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:32
+msgid "Insert list"
+msgstr "Insertar lista"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:40
+msgid "Insert code"
+msgstr "Insertar código"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:50
+msgid "Insert link"
+msgstr "Insertar enlace"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:60
+msgid "Insert title"
+msgstr "Insertar título"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:67
+msgid "Insert image"
+msgstr "Insertar imagen"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:78
+msgid "Insert line"
+msgstr "Insertar línea"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:84
+msgid "Insert quote"
+msgstr "Insertar cita"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:86
+msgid "Quote"
+msgstr "Citar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:90
+msgid "Italic"
+msgstr "Cursiva"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:92
+msgid "Italic text"
+msgstr "Texto en cursiva"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:96
+msgid "Bold"
+msgstr "Negrita"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:98
+msgid "Bold text"
+msgstr "Texto en negrita"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:102
+msgid "Strikethrough"
+msgstr "Tachar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkActionBar.qml:104
+msgid "Strikethrough text"
+msgstr "Texto tachado"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkEditorPage.qml:15
+#, qt-format
+msgid "%1%2 - Editor"
+msgstr "%1%2 - Editor"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkEditorPage.qml:16
+msgid "Editor"
+msgstr "Editor"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkEditorPage.qml:21
+msgid "Menu"
+msgstr "Menú"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkEditorPage.qml:36
+msgid "Hide toolbar"
+msgstr "Ocultar la barra de herramientas"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkEditorPage.qml:36
+msgid "Show toolbar"
+msgstr "Mostrar la barra de herramientas"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:22
+msgid "Select"
+msgstr "Seleccionar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:46
+msgid "Open file"
+msgstr "Abrir archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:60
+msgid "Save as ..."
+msgstr "Guardar como ..."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:106
+msgid "File exists"
+msgstr "El archivo existe"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkFileSelectorPage.qml:107
+#, qt-format
+msgid "Do you want to overwrite %1?"
+msgstr "¿Quiere sobrescribir %1?"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:16
+msgid "New"
+msgstr "Nuevo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:24
+msgid "Open"
+msgstr "Abrir"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:41
+msgid "Save as"
+msgstr "Guardar como"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:48
+msgid "Close"
+msgstr "Cerrar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:55
+#: /home/tim/Dev/crazy-mark/src/qml/MarkViewPage.qml:8
+msgid "Preview"
+msgstr "Vista previa"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:123
+msgid "Options"
+msgstr "Opciones"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:157
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:167
+msgid "Auto completion"
+msgstr "Autocompletado"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkPanel.qml:170
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:7
+#: /home/tim/Dev/crazy-mark/src/qml/PrimaryPage.qml:48
+msgid "Settings"
+msgstr "Configuración"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:36
+msgid "Content"
+msgstr "Contenido"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:42
+msgid "Content exchange via ..."
+msgstr "Intercambio de contenido vía ..."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:46
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:51
+msgid "Mark Dialog"
+msgstr "Diálogo de Mark"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:47
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:52
+msgid "Content Hub"
+msgstr "Concentrador de contenido"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:53
+msgid "Desktop Dialog"
+msgstr "Diálogo de escritorio"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:90
+#, qt-format
+msgid "You're running in confined mode. You can only write files to '%1'"
+msgstr "Está en modo confinado. Puede escribir archivos sólo a '%1'"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:92
+#, qt-format
+msgid ""
+"Mark Dialog allows you to write to '%1'. If you wish more control choose "
+"Desktop Dialog."
+msgstr ""
+"Diálogo de Mark le permite escribir a '%1'. Si desea más control "
+"elija diálogo de escritorio."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:94
+msgid ""
+"Please note that due to platform limitations this option doesn't offer the "
+"best experience, yet. Please make sure that you have the filemanager app "
+"installed."
+msgstr ""
+"Tenga en cuenta que debido a las limitaciones de la plataforma esta opción no "
+"ofrece la mejor experiencia, aún. Asegúrese de que tiene la aplicación de gestor "
+"de archivos instalada."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:96
+msgid ""
+"Please note that content exchange using a desktop-style dialog is only "
+"usable with a mouse and keyboard connected."
+msgstr ""
+"Tenga en cuenta que el intercambio de contenido usando un diálogo de estilo "
+"escritorio solo se puede usar con un ratón y un teclado conectados."
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:110
+msgid "Interface"
+msgstr "Interfaz"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:128
+msgid "Start with expanded toolbar"
+msgstr "Comenzar con la barra de herramientas expandida"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:146
+msgid "Open preview on startup"
+msgstr "Abrir vista previa al arrancar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:182
+msgid "Default bullet character"
+msgstr "Carácter de viñeta predeterminado"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:184
+msgid "Hyphen\t-"
+msgstr "Guión\t-"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:185
+msgid "Asterisk\t*"
+msgstr "Asterisco\t*"
+
+#: /home/tim/Dev/crazy-mark/src/qml/MarkSettingsPage.qml:186
+msgid "Plus\t+"
+msgstr "Mas\t+"
+
+#: /home/tim/Dev/crazy-mark/src/qml/NewFileDialog.qml:27
+#: /home/tim/Dev/crazy-mark/src/qml/PrimaryPage.qml:55
+#: /home/tim/Dev/crazy-mark/src/qml/PrimaryPage.qml:139
+msgid "New file"
+msgstr "Nuevo archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/NewFileDialog.qml:28
+msgid "Are you sure to create a new file? All unsaved changes will be lost."
+msgstr ""
+"¿Seguro que desea crear un archivo nuevo? Todos los cambios sin "
+"guardar se perderán."
+
+#: /home/tim/Dev/crazy-mark/src/qml/NewFileDialog.qml:31
+msgid "Discard"
+msgstr "Descartar"
+
+#: /home/tim/Dev/crazy-mark/src/qml/PrimaryPage.qml:98
+msgid "Create your first file"
+msgstr "Cree su primer archivo"
+
+#: /home/tim/Dev/crazy-mark/src/qml/PrimaryPage.qml:114
+msgid "Documents or folders you create will show up here."
+msgstr "Los documentos o carpetas que cree se mostrarán aquí."
+
+#: /home/tim/Dev/crazy-mark/src/qml/mark.js:2
+msgid "word"
+msgstr "palabra" 
