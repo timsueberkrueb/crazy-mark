@@ -9,7 +9,7 @@ Page {
 
     property int mode: save
     property string fileName: inputFileName.text
-    readonly property string filePath: fileSelector.folder + fileName
+    readonly property string filePath: fileSelector.folder + "/" + fileName
 
     property alias folder: fileSelector.folder
     property alias rootFolder: fileSelector.rootFolder
