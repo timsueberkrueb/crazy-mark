@@ -9,7 +9,7 @@
             "desktop": "crazy-mark.desktop"
         }
     },
-    "version": "0.2.4",
+    "version": "0.2.5",
     "maintainer": "Tim Süberkrüb <dev@timsueberkrueb@io>",
     "framework": "ubuntu-sdk-15.04.4"
 }
