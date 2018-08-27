@@ -17,9 +17,8 @@ MarkHighlighter::MarkHighlighter(Palette palette, QTextDocument *parent)
     rule.format = m_listFormat;
     m_highlightingRules.append(rule);
 
-    // Headers (# My Title)
+    // Headings (# My Title)
     m_atxTitleFormat.setFontWeight(QFont::Bold);
-    m_atxTitleFormat.setFontPointSize(16);
     rule.pattern = QRegExp("^\\s?#[^\n]*");
     rule.format = m_atxTitleFormat;
     m_highlightingRules.append(rule);
