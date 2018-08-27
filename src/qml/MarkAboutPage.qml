@@ -54,7 +54,7 @@ Page {
             Item { height: units.gu(2); width: parent.width }   // Spacer
 
             Label {
-                text: i18n.tr("Source code available on <a href='%1'>GitHub</a>.").arg("https://github.com/tim-sueberkrueb/crazy-mark")
+                text: i18n.tr("Source code available on <a href='%1'>GitHub</a>.").arg("https://github.com/timsueberkrueb/crazy-mark")
                 width: parent.width
                 wrapMode: Text.WordWrap
                 linkColor: UbuntuColors.orange
@@ -133,7 +133,7 @@ Page {
                     text: "🐞 %1".arg(i18n.tr("Report bug"))
                     color: UbuntuColors.orange
                     onClicked: {
-                        Qt.openUrlExternally("https://github.com/tim-sueberkrueb/crazy-mark/issues/new");
+                        Qt.openUrlExternally("https://github.com/timsueberkrueb/crazy-mark/issues/new");
                     }
                 }
 
@@ -141,7 +141,7 @@ Page {
                     text: "♥ %1".arg(i18n.tr("Contribute"))
                     color: UbuntuColors.darkAubergine
                     onClicked: {
-                        Qt.openUrlExternally("https://github.com/tim-sueberkrueb/crazy-mark");
+                        Qt.openUrlExternally("https://github.com/timsueberkrueb/crazy-mark");
                     }
                 }
             }
