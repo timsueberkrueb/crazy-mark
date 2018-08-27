@@ -1,9 +1,9 @@
 # Crazy Mark
 
 [![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![GitHub release](https://img.shields.io/github/release/tim-sueberkrueb/crazy-mark.svg)](https://github.com/tim-sueberkrueb/crazy-mark/releases)
-[![GitHub issues](https://img.shields.io/github/issues/tim-sueberkrueb/crazy-mark.svg)](https://github.com/tim-sueberkrueb/crazy-mark/issues)
-[![Maintained](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/tim-sueberkrueb/crazy-mark/commits/develop)
+[![GitHub release](https://img.shields.io/github/release/timsueberkrueb/crazy-mark.svg)](https://github.com/timsueberkrueb/crazy-mark/releases)
+[![GitHub issues](https://img.shields.io/github/issues/timsueberkrueb/crazy-mark.svg)](https://github.com/timsueberkrueb/crazy-mark/issues)
+[![Maintained](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/timsueberkrueb/crazy-mark/commits/develop)
 
 A simple markdown editor for Ubuntu
 
