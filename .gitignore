@@ -43,6 +43,9 @@ CMakeLists.txt.user*
 # Executable
 crazy-mark
 
+# Build files
+build/
+
 # Snapcraft
 parts/
 stage/
