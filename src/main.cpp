@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Settings>("Mark", 1, 0, "Settings");
     engine.rootContext()->setContextProperty("confined", confined);
     engine.rootContext()->setContextProperty("settings", &settings);
-    engine.rootContext()->setContextProperty("appVersion", "0.2.5");
+    engine.rootContext()->setContextProperty("appVersion", "0.2.6");
     engine.rootContext()->setContextProperty("dataPath", DATA_PATH);
     engine.rootContext()->setContextProperty("documentsPath", DOCUMENTS_LOCATION);
     engine.rootContext()->setContextProperty("userScriptUrl", QUrl("file://"+QFileInfo("oxide-user.js").absoluteFilePath()));
