@@ -47,6 +47,7 @@ clickable launch
 Please help translating Crazy Mark [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
 
 ## Credits
+* Thanks to Hendrik Süberkrüb for creating the application icon.
 * Thanks to [Sam Hewitt](http://samuelhewitt.com/) for creating the [Ubuntu Icon Resource Kit](https://github.com/snwh/ubuntu-icon-resource-kit) which was used to create the application icon.
 * Thanks to all translators [on Transifex](https://www.transifex.com/tim-sueberkrueb/crazy-mark/).
 
