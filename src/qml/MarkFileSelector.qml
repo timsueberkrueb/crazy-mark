@@ -27,21 +27,27 @@ Rectangle {
             Layout.fillWidth: true
             height: canGoUp ? units.gu(6) : 0
             visible: height > 0
-            Layout.preferredHeight: height
 
-            ListItemLayout {
-                anchors.fill: parent
+            RowLayout {
+                anchors {
+                    fill: parent
+                    margins: units.gu(1)
+                }
+
+                spacing: units.gu(1)
+
+                Icon {
+                    name: "toolkit_chevron-up_2gu"
+                    width: units.gu(2)
+                }
 
                 Label {
-                    SlotsLayout.position: SlotsLayout.Center
                     text: "Go up"
                     color: theme.palette.normal.foregroundText
                 }
 
-                Icon {
-                    name: "toolkit_chevron-up_2gu"
-                    SlotsLayout.position: SlotsLayout.Leading
-                    width: units.gu(2)
+                Item {
+                    Layout.fillWidth: true
                 }
             }
 
