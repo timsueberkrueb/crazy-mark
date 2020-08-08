@@ -2,7 +2,8 @@
 host = https://www.transifex.com
 
 [crazy-mark.crazy-marktimsueberkruebpot]
+file_filter = po/<lang>.po
 source_file = po/crazy-mark.timsueberkrueb.pot
 source_lang = en
 type = PO
-file_filter = po/<lang>.po
+
